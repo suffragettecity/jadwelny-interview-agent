@@ -1,23 +1,37 @@
 def tracking_tool():
-    order_tracking = 0
-    return order_tracking
+    return{
+        "tool": "tracking_tool",
+        "order_id": "order_id",
+        "status": "status",
+        "location": "Dubai Silicon Oasis A5"
+    }
 
 def refund_tool():
-    refund_request = 0
-    return refund_request
+    return{
+        "tool": "refund_tool", 
+        "order_id": "order_id",
+        "status": "status",
+        "payment_method": "Payment Method"
+    }
 
 def complaint_tool():
-    complaint = 0
-    return complaint
+    return {
+        "tool": "complaint_tool", 
+        "status": "Registered"
+    }
 
 def escalation_tool():
-    escalation = 0
-    return escalation
+    return {
+        "tool": "escalation_tool"
+    }
 
 def hotel_tool():
-    hotel_search = 0
-    return hotel_search
+    return {
+        "name": "Burj Al Arab",
+        "price_per_night": "900 AED"
+    }
 
 def flight_tool():
-    flight_search = 0
-    return flight_search
+    return {
+        "tool": "flight_tool"
+    }
